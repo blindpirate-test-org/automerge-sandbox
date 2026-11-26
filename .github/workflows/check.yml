@@ -1,0 +1,8 @@
+name: Check
+on:
+  merge_group:
+jobs:
+  Check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
